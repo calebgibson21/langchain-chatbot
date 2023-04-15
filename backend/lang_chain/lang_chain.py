@@ -9,7 +9,6 @@ dotenv_path = Path('.') / '.env'
 load_dotenv(dotenv_path = dotenv_path)
 
 OPENAI_API_KEY = os.getenv("REACT_APP_OPENAI_KEY")
-print(OPENAI_API_KEY)
 
 # initialize the models
 llm = OpenAI(
